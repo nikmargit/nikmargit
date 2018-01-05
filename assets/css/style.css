@@ -130,6 +130,17 @@ h6 {
     color: #ffffff;
 }
 
+#about h1 {
+    text-align: center;
+    margin: 60px;
+}
+
+#about img {
+    width: 300px;
+    display: block;
+    margin: -20px auto 0 auto;
+}
+
 #social {
     padding-top: 50px;
     padding-bottom: 50px;
