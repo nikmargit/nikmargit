@@ -14,18 +14,6 @@
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-::-moz-selection {
-    background: #f2c2c9;
-    color: #a4003a;
-    text-shadow: none;
-}
-
-::selection {
-    background: #16a085;
-    color: #a4003a;
-    text-shadow: none;
-}
-
 /*
  * A better looking default horizontal rule
  */
@@ -79,7 +67,7 @@ h6 {
 }
 
 .navbar-default .navbar-brand {
-    color: #1abc9c;
+    color: #5cdb95;
 }
 
 .navbar-default {
@@ -90,13 +78,23 @@ h6 {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #1abc9c;
+    color: #5cdb95;
     background-color: transparent;
-    border-bottom: 2px solid #1abc9c;
+    border-bottom: 2px solid #5cdb95;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #1abc9c;
+    color: #5cdb95;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #fff;
 }
 
 /* ==========================================================================
@@ -153,7 +151,7 @@ h6 {
 }
 
 #social i:hover {
-    color: #1abc9c;
+    color: #5cdb95;
 }
 
 #footerwrap {
@@ -228,6 +226,12 @@ h6 {
     margin-top: 30px;
 }
 
+.gallery img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
 .gallery img:hover {
-    opacity: 0.4;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
