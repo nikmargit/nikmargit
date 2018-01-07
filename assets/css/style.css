@@ -229,6 +229,7 @@ h6 {
 .gallery img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+    transition: linear 0.3s;
 }
 
 .gallery img:hover {
