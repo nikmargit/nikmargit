@@ -62,11 +62,21 @@ h6 {
     color: #4a4a4a;
 }
 
-.navbar-brand {
-    font-weight: 700;
+.navbar {
+    padding-top: 5px;
+    transition: all 0.5s ease-out;
 }
 
-.navbar-default .navbar-brand {
+.navbar-brand {
+    background: url(../img/nm.png) no-repeat;
+    background-size: contain;
+}
+
+.navbar-brand h1 {
+    text-indent: -10000px;
+}
+
+.navbar-default {
     color: #5cdb95;
 }
 
@@ -77,10 +87,9 @@ h6 {
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus {
-    font-weight: 700;
     color: #5cdb95;
     background-color: transparent;
-    border-bottom: 4px solid #5cdb95;
+    border-bottom: 3px solid #5cdb95;
 }
 
 .navbar-default .navbar-nav > .active > a:hover {
@@ -100,6 +109,12 @@ h6 {
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
     color: #fff;
+}
+
+/* Inbody */
+
+.inbody {
+    background: rgba(110, 110, 110, 0.9);
 }
 
 /* ==========================================================================
@@ -189,6 +204,7 @@ h6 {
 #social i {
     font-size: 40px;
     color: #4a4a4a;
+    transition: linear 0.3s;
 }
 
 #social i:hover {
